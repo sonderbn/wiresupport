@@ -112,8 +112,8 @@
     <div class="d-flex">
         <!-- Sidebar -->
         <div class="text-white p-3 d-flex flex-column position-fixed"
-            style="width: 250px; height: 100vh; background-color: #007DC4;">
-            <h4>Outsourcing</h4>
+            style="width: 250px; height: 100vh; background-color: #5F9B41;">
+            <h4>WireSupport</h4>
             <ul class="nav flex-column">
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center {{ Request::routeIs('menus.inicio') ? 'active-link' : 'text-white' }}"
