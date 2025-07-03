@@ -55,7 +55,7 @@
     <div class="col-12">
         <h1 style="overflow: hidden; text-overflow: ellipsis;">
             ¡Hola,{{ $nombreMostrar }}! Bienvenido al gestor de tickets de
-            <span class="text-primary">Outsourcing</span>
+            <span class="text-primary">WireSupport</span>
         </h1>
         <p>Aqui tienes un resumen de tus tickets pendientes y los equipos registrados de cada sede</p>
     </div>
@@ -64,13 +64,13 @@
         {{-- Gráficos --}}
         <div class="row mt-5">
             <div class="col-md-6 text-center">
-                <h5>Tickets Pendientes por Clínica</h5>
+                <h5>Tickets Pendientes por Sede</h5>
                 <div style="max-width: 300px; margin: auto;">
                     <canvas id="graficoTickets"></canvas>
                 </div>
             </div>
             <div class="col-md-6 text-center">
-                <h5>Equipos por Clínica</h5>
+                <h5>Equipos por Sede</h5>
                 <div style="max-width: 300px; margin: auto;">
                     <canvas id="graficoEquipos"></canvas>
                 </div>
